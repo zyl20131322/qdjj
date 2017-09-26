@@ -1,0 +1,110 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background-image: url(../images/background.gif);
+    }
+    /*table边框*/
+
+    .mytable {
+        border: 1px solid #cccccc;
+        border-collapse: collapse;
+    }
+
+    .mytable td {
+        border: 1px solid #cccccc;
+        padding: 5px;
+    }
+
+    .container {
+        background-color: white;
+        margin: 10px auto 20px;
+        width: 710px;
+        border-radius: 20px;
+        padding: 10px 30px 20px;
+    }
+
+    .header_links a {
+        text-decoration: none;
+        color: #FF0099;
+        font-size: 12px;
+    }
+
+    .header_links {
+        display: inline-block;
+        float: right;
+        position: relative;
+        top: 60px;
+    }
+
+    .title {
+        font-size: 18px;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .mytable {
+        font-size: 12px;
+        margin: 10px auto;
+        text-align: center;
+    }
+
+    .t_header {
+        text-align: center;
+    }
+
+    td.t_title {
+        background-color: #eeeeee;
+        color: #003399;
+        font-weight: bold;
+        font-size: 13px;
+        line-height: 200%;
+        text-align: left;
+        padding-left: 20px;
+    }
+    /*表格左边*/
+
+    .t_left {
+        width: 25%;
+        text-align: right;
+        padding-right: 20px;
+    }
+    /*表格右边*/
+
+    .t_right {
+        width: 75%;
+        color: #0000ff;
+        text-align: left;
+    }
+    /*表格右边小标题*/
+
+    .t_right_title {
+        color: #000000;
+        font-weight: bold;
+        font-size: 12px;
+        margin: 10px 0;
+        display: inline-block;
+    }
+    /*表格右边选项*/
+
+    .t_right_choice {
+        color: #000000;
+        text-align: left;
+    }
+
+    input[type="checkbox" i] {
+        margin-left: 5px;
+    }
+
+    .button {
+        margin: 30px;
+        width: 10%;
+    }
+
+    footer {
+        font-size: 12px;
+        line-height: 150%;
+        text-align: center;
+    }
